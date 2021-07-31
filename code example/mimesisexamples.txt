@@ -1,0 +1,105 @@
+from mimesis import Person
+person = Person()
+
+print (person.full_name())
+print (person.academic_degree())
+print (person.age())
+print (person.blood_type())
+print (person.email())
+print (person.gender())
+print (person.height())
+print (person.language())
+print (person.nationality())
+print (person.occupation())
+print (person.telephone())
+print (person.weight())
+print (person.username())
+
+
+
+from mimesis import Address
+address = Address()
+
+print (address.address())
+print (address.city())
+print (address.country())
+print (address.country_code())
+print (address.postal_code())
+print (address.prefecture())
+print (address.province())
+print (address.region())
+print (address.state())
+print (address.street_name())
+print (address.street_suffix())
+print (address.zip_code())
+
+
+from mimesis import Transport
+transport = Transport()
+
+print (transport.airplane())
+print (transport.car())
+print (transport.manufacturer())
+print (transport.truck())
+print (transport.vehicle_registration_code())
+
+
+from mimesis import Hardware
+hardware = Hardware()
+
+print (hardware.cpu())
+print (hardware.cpu_codename())
+print (hardware.cpu_frequency())
+print (hardware.cpu_model_code())
+print (hardware.graphics())
+print (hardware.manufacturer())
+print (hardware.phone_model())
+print (hardware.ram_size())
+print (hardware.resolution())
+print (hardware.screen_size())
+print (hardware.ssd_or_hdd())
+
+
+from mimesis import Text
+text = Text()
+
+print (text.alphabet())
+print (text.answer())
+print (text.color())
+print (text.hex_color())
+print (text.level())
+print (text.quote())
+print (text.rgb_color())
+print (text.sentence())
+print (text.text())
+print (text.title())
+print (text.word())
+print (text.words())
+
+from mimesis import Text
+text = Text()
+
+i = 1
+while i < 6:
+  print (text.words())
+  i += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
